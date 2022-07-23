@@ -178,7 +178,7 @@ const initialState = {
 	web3Provider: null,
 	address: null,
 	chainId: null,
-	maxAmount = 0,
+	maxAmount: 0,
 }
 
 let state = initialState;
