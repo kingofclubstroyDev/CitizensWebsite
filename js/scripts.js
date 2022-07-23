@@ -13,8 +13,6 @@ const spinnerFrames = ["/", "-", "\\", "|"];
 const ethersObject = {};
 const { MerkleTree } = require('merkletreejs')
 
-const {yugenABI} = require("../values/yugenABI.json");
-
 
 const  { Web3Modal } = require("web3modal");
 const { WalletConnectProvider } = require('@walletconnect/web3-provider')
