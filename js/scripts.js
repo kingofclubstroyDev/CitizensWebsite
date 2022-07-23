@@ -23,14 +23,14 @@ let whitelistObject;
 let merkleTree;
 
 // Config
-import { 
+const { 
 
 	yugenABI,
 	yugenAddress,
 	testYugenABI,
 	testYugenAddress
 	
-} from '../values/config';
+}  = require('../values/config');
 
 if ($('body').hasClass('no-scroll')) {
 	const terminal = document.querySelector(".terminal");
