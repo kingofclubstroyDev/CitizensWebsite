@@ -1,4 +1,4 @@
-import ethers from module.ethers;
+const ethers = require("ethers");
 
 const keccak256 = require('keccak256');
 
