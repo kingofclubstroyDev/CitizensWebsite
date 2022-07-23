@@ -1,21 +1,9 @@
 {
-  "type": "module",
-  "name": "yugenwebsite",
-  "version": "1.0.0",
-  "description": "yugen website",
-  "main": "scripts.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@walletconnect/web3-provider": "^1.7.8",
-    "browserify": "^17.0.0",
     "ethers": "^5.6.9",
     "keccak256": "^1.0.6",
     "merkletreejs": "^0.2.32",
-    "uniq": "^1.0.1",
     "web3modal": "^1.9.8"
   }
 }
