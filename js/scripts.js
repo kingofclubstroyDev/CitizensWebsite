@@ -10,7 +10,7 @@ const unloadedCharacter = ".";
 const loadedCharacter = "#";
 const spinnerFrames = ["/", "-", "\\", "|"];
 
-const ethersObject;
+const ethersObject = {};
 const { MerkleTree } = require('merkletreejs')
 
 const {yugenABI} = require("../values/yugenABI.json");
@@ -273,8 +273,6 @@ const setText = function(text1, text2) {
 	$('.mint-form_text_left').textContent = text1;
 	$('.mint-form_text_right').textContent = text2;
 
-
-
 }
 
 const disconnect = async function () {
@@ -357,14 +355,11 @@ function getAllProofs(address) {
 	for(let i = 0; i < 3; i++) {
 
 		result[i] = getHexProof(address, i);
-
 	}
 
 	return result;
 
 }
-
-
 
 async function generateMerkleTree(test = []) {
 
@@ -435,7 +430,6 @@ const changeMintAmount = function(increment) {
 		}
 
 	}
-
 
 }
 
