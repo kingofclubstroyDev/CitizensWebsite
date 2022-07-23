@@ -16,7 +16,7 @@ const { MerkleTree } = require('merkletreejs')
 const {yugenABI} = require("../values/yugenABI.json");
 
 
-import Web3Modal from "web3modal";
+const  { Web3Modal } = require("web3modal");
 import WalletConnectProvider from '@walletconnect/web3-provider'
 
 let whitelistObject;
